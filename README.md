@@ -12,10 +12,16 @@ ECCFP is optimized from the [Flec](https://github.com/icebert/eccDNA_RCA_nanopor
 - [pyfaidx](https://pypi.org/project/pyfaidx/)
 - [pyfastx](https://pypi.org/project/pyfastx/)
 - [Biopython](https://biopython.org)
+## Install
+```
+git clone https://github.com/WSG-Lab/ECCFP.git
+cd ECCFP
+pip install .
+```
 ## Usage
 #### simple usage
 ```
-python /path/eccfp.py --fastq input.fastq --paf mapping.paf --reference ref.fa -o output
+eccfp --fastq input.fastq --paf mapping.paf --reference ref.fa -o output
 ```
 #### Parameter
 ```
