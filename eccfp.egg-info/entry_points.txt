@@ -1,0 +1,2 @@
+[console_scripts]
+eccfp = ECCFP.main:main

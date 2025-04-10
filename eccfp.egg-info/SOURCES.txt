@@ -1,0 +1,15 @@
+README.md
+setup.py
+ECCFP/__init__.py
+ECCFP/main.py
+ECCFP/cli/__init__.py
+ECCFP/cli/_utils.py
+ECCFP/cli/accurate_eccDNA.py
+ECCFP/cli/config.py
+ECCFP/cli/consensus_variants.py
+ECCFP/cli/preprocessing.py
+eccfp.egg-info/PKG-INFO
+eccfp.egg-info/SOURCES.txt
+eccfp.egg-info/dependency_links.txt
+eccfp.egg-info/entry_points.txt
+eccfp.egg-info/top_level.txt
