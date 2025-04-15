@@ -204,7 +204,7 @@ class FragmentGroup(object):
         l = lambda x: x.nfrag == self.nfrag
         nfragjud = [l(i) for i in fraggroup]
         if False in nfragjud:
-            sys.stdout.write('错误')
+            sys.stdout.write('Error!')
             sys.exit()
         for i in range(self.nfrag):
             self.group.append([g for frag in fraggroup for g in frag.group[i]])

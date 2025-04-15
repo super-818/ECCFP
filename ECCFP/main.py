@@ -19,7 +19,7 @@ def printf(unitPath, outLoc, outInfo, outSeq, outVar):
     read_start = a.read_start.values[idx]
     read_end = a.read_end.values[idx]
     with open(outLoc, 'w') as loc, open(outInfo, 'w') as out, open(outSeq, 'w') as fa, open(outVar, 'w') as var:
-        loc.write(f'eccDNApos\teccDNA_len\tmerged\tcand_eccDNA\tcand_len\tcand_Nfullpass\n')
+        loc.write(f'eccDNApos\teccDNA_len\tconsolidating\tcand_eccDNA\tcand_len\tcand_Nfullpass\n')
         out.write(f'eccDNApos\tNfullpass\tNfragments\tNreads\trefLength\tseqLength\n')
         condation = np.char.find(eccDNA, '|') == -1
         idx = np.where(condation)
@@ -84,7 +84,7 @@ def main():
         os.makedirs(args.output, exist_ok=True)
 
     outUnit = f'{args.output}/unit.txt'
-    outLoc = f'{args.output}/candidate_merge.txt'
+    outLoc = f'{args.output}/candidate_consolidate.txt'
     outInfo = f'{args.output}/final_eccDNA.txt'
     outSeq = f'{args.output}/consensus_sequence.fasta'
     outVar = f'{args.output}/variants.txt'

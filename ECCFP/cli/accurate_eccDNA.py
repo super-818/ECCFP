@@ -436,7 +436,6 @@ class SplitRegion(object):
             else:
                 yield from self._process_non_consolidate_multi(group.group)
 
-    # 辅助方法
     def _process_group_circ(self, group):
         sequence, variants, seqLength = group.circ.getConsensus()
         self.variants.extend(variants)
