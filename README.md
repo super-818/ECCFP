@@ -101,3 +101,6 @@ Five files are generated following the completion of the pipeline: unit.txt and 
 |col6|total coverage depth|
 |col7|type|
 |col8|eccDNApos|
+
+## Citation
+Zhang, T. et al. ECCFP: a consecutive full pass based bioinformatic analysis for eccDNA identification using Nanopore sequencing data. bioRxiv 2025.05.13.653627 (2025) doi:10.1101/2025.05.13.653627.
