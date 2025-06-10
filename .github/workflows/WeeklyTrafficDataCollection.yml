@@ -12,7 +12,7 @@ jobs:
       contents: write
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@master
       with:
         ref: 'traffic-data'
 
@@ -20,7 +20,7 @@ jobs:
       run: sudo apt-get install -y jq
 
     - name: Get traffic data
-      uses: WSG-Lab/ECCFP
+      uses: WSG-Lab/ECCFP@master
       id: traffic
       with:
         format: 'json'
