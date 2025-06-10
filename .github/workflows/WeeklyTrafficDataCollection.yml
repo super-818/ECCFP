@@ -20,7 +20,7 @@ jobs:
       run: sudo apt-get install -y jq
 
     - name: Get traffic data
-      uses: dawidd6/action-repository-traffic@v2
+      uses: WSG-Lab/ECCFP@v0.0.1
       id: traffic
       with:
         format: 'json'
