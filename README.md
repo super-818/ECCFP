@@ -2,9 +2,7 @@
 A software package for identifying eccDNAs in the ONT sequencing data of RCA-amplified eccDNA
 ## Introduction
 ECCFP utilizes all consecutive full passes to determine accurate eccDNA positions and generate consensus sequences, based on rolling circle amplification and nanopore sequencing.  
-[![ECCFP: BioRxiv](https://img.shields.io/badge/DOI-10.1101/2025.05.13.653627-blue)](https://doi.org/10.1101/2025.05.13.653627
-        
-        )  
+[![ECCFP: BioRxiv](https://img.shields.io/badge/DOI-10.1101/2025.05.13.653627-blue)](https://doi.org/10.1101/2025.05.13.653627)  
 |![ECCFP](./images/ECCFP%20Figure%201.png)|
 |:---------------------------------------:|
 #### Reference
